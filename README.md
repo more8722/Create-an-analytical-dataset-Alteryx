@@ -1,12 +1,14 @@
-# Predicting-defualt-risk
-Project Overview
-You are a loan officer at a young and small bank (been in operations for two years) that needs to come up with an efficient solution to classify new customers on whether they can be approved for a loan or not. You'll use a series of classification models to figure out the best model and provide a list of creditworthy customers to your manager.
-# The Business Problem
-You work for a small bank and are responsible for determining if customers are creditworthy to give a loan to. Your team typically gets 200 loan applications per week and approves them by hand. 
-Due to a financial scandal that hit a competitive bank last week, you suddenly have an influx of new people applying for loans for your bank instead of the other bank in your city. All of a sudden you have nearly 500 loan applications to process this week!
-Your manager sees this new influx as a great opportunity and wants you to figure out how to process all of these loan applications within one week. 
-Fortunately for you, you just completed a course in classification modeling and know how to systematically evaluate the creditworthiness of these new loan applicants.
-For this project, you will analyze the business problem using the Problem Solving Framework and provide a list of creditworthy customers to your manager in the next two days.
-You have the following information to work with:
-Data on all past applications
+# Project Overview
+This project is the first part of a two-part series. In the first part, you will blend and format data and deal with outliers.
+For the second part, you will use your cleaned up dataset to create another linear regression model. The difference this time is that you will have to choose which variable(s) are the most important for the model using new techniques learned in the Selecting Predictor Variables section.
+# Scenario
+Pawdacity is a leading pet store chain in Wyoming with 13 stores throughout the state. This year, Pawdacity would like to expand and open a 14th store. Your manager has asked you to perform an analysis to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.
 The list of customers that need to be processed in the next few days
+# The Business Problem
+Pawdacity is a leading pet store chain in Wyoming with 13 stores throughout the state. This year, Pawdacity would like to expand and open a 14th store. Your manager has asked you to perform an analysis to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.
+Your first step in predicting yearly sales is to first format and blend together data from different datasets and deal with outliers.
+Your manager has given you the following information to work with:
+The monthly sales data for all of the Pawdacity stores for the year 2010.
+NAICS data on the most current sales of all competitor stores where total sales is equal to 12 months of sales.
+A partially parsed data file that can be used for population numbers.
+Demographic data (Households with individuals under 18, Land Area, Population Density, and Total Families) for each city and county in the state of Wyoming. For people who are unfamiliar with the US city system, a state contains counties and counties contains one or more cities.
